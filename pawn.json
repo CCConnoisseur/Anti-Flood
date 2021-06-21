@@ -1,0 +1,17 @@
+{
+	"user": "CCConnoisseur",
+	"repo": "Anti-Flood",
+	"entry": "Anti-Flood.inc",
+	"output": "gamemodes\\Anti-Flood.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib",
+		"pawn-lang/YSI-Includes"
+	],
+	"local": true,
+	"runtime": {
+		"version": "0.3.7",
+		"mode": "server",
+		"rcon_password": "password",
+		"port": 7777
+	}
+}
