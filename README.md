@@ -33,7 +33,7 @@ Happy Pawning!
 */
 #define _MAX_ALLOWED_CONNECTIONS_       1   // Define maximum allowed connections for easier use
 #include <YSI_Server\y_flooding>            // Include anti-flooding by Y_Less (https://github.com/pawn-lang/YSI-Includes/blob/5.x/YSI_Server/y_flooding.md)
-pawn```
+```
 ```pawn
 /*
     - Implementation
@@ -96,7 +96,7 @@ pawn```
 			forward AntiFlood_OnGameModeInit(playerid);
 		#endif
 	#endif
-pawn```
+```
 ```pawn
 /*
     This function is called if action e_FLOOD_ACTION_OTHER is passed in API SetMaxConnections
@@ -143,7 +143,7 @@ pawn```
         }
     }
 #endif
-pawn```
+```
 
 ## Installation
 
